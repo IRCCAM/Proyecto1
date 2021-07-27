@@ -1,6 +1,7 @@
 
 public class SopaDeLetras{
     //AQUI VAN LOS ATRIBUTOS
+    //COMENTARIO BREVE 2
     private int filas;
     private int columnas;
     private String[][] sopa;
@@ -22,6 +23,7 @@ public class SopaDeLetras{
     // AUTO ==> A U T O  
     public void agregarPalabra(Palabra pal){
         //comparamos sentidos
+        //COMENTARIO BREVE 2
         palabra = pal;
         String reporte = "";
         String[] sent = {"horizontal","vertical","diagonal","diagonalInvertida"};
@@ -50,6 +52,7 @@ public class SopaDeLetras{
     }
     public void agregarLetrasAleatorias(){
         // 65 = A  90 = Z ---- 35
+        //COMENTARIO BREVE 2
         int numero = 0;
         char letra;
         String reporte = "";
@@ -149,6 +152,7 @@ public class SopaDeLetras{
     }
     
     public String mostrar(){
+        //COMENTARIO BREVE 2
         String reporte = "";
         for(int i = 0; i<sopa.length; i++){//filas
             for(int j = 0; j<sopa[0].length; j++){//columas
